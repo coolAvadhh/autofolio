@@ -5,8 +5,8 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 
 # --- Setup your keys ---
-openai.api_key = "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"
-openai.api_base = "https://openrouter.ai/api/v1"
+openai.api_key = "OPENAI_API_KEY"
+openai.api_base = "NOTION_API_KEY"
 
 # --- Define Google Drive access scope ---
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/documents.readonly']
